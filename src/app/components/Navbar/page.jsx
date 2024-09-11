@@ -108,7 +108,7 @@ const Nav = () => {
 
         {/* Mobile Menu Icon */}
         <div className="sm:hidden flex items-center">
-          <button onClick={toggleMenu}>
+          <button className="text-black dark:text-white" onClick={toggleMenu}>
             {isOpen ? <FaTimes size={25} /> : <FaBars size={25} />}
           </button>
         </div>
