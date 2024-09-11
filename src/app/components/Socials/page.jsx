@@ -41,7 +41,7 @@ const Socials = () => {
   };
 
   return (
-    <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 flex justify-center">
+    <div className="fixed bottom-6 left-1/2 transform -translate-x-1/2 flex justify-center z-50">
       {/* Hovering over the container will expand its size */}
       <motion.div
         whileHover={{ width: "27vw" }} // Expand the container when hovering
