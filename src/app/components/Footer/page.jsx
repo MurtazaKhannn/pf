@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { BiLogoGmail } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
