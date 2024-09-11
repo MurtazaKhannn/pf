@@ -63,4 +63,7 @@ module.exports = {
   	}
   },
   plugins: [require("tailwindcss-animate")],
+  rules: {
+    'react/no-unescaped-entities': 'off',
+  },
 };
