@@ -8,7 +8,7 @@ const Intro = () => {
       <p className="text-zinc-500 text-center mt-4 sm:mt-8 px-2
         text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl
         whitespace-normal">
-        Hello, I'm Mohd Murtaza Khan, a passionate Full stack web developer based in
+        Hello, I&apos;m Mohd Murtaza Khan, a passionate Full stack web developer based in
         New Delhi, India. I specialize in modern web technologies and love building
         dynamic, user-friendly applications. With a strong grasp of both front-end 
         and back-end development, I strive to create solutions that deliver value 

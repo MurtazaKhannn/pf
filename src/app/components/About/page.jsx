@@ -16,12 +16,12 @@ const Page = () => {
                 Hello! I am Mohd Murtaza Khan
               </h3>
               <p className="font-oswald mt-4 text-base sm:text-lg md:text-xl">
-                A passionate full-stack web developer based in Delhi. I've
+                A passionate full-stack web developer based in Delhi. I&apos;ve
                 gained expertise in multiple tech stacks, allowing me to build
                 robust web applications from both the front and back end. I
                 completed my schooling at Jamia Millia Islamia and earned my
                 B.Tech from MSIT, New Delhi. My love for development has driven
-                me to create a range of exciting projects, and I'm proficient in
+                me to create a range of exciting projects, and I&apos;m proficient in
                 delivering seamless, efficient, and dynamic web solutions across
                 various platforms.
               </p>
