@@ -7,7 +7,7 @@ import { IoLink } from "react-icons/io5";
 
 const Page = () => {
   return (
-    <div className="w-full h-full flex flex-col flex-wrap justify-center items-center sm:p-6 md:p-8 lg:p-10 gap-6 sm:gap-8 md:gap-10 lg:gap-12 rounded-[.4vw]">
+    <div className="w-full h-full flex flex-col flex-wrap justify-center items-center sm:p-6 md:p-8 lg:p-10 gap-6 sm:gap-8 md:gap-10 lg:gap-12 ">
       <div className="w-full max-w-6xl mx-auto p-4 lg:p-10">
         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-strike flex justify-start">
           Projects
@@ -17,7 +17,7 @@ const Page = () => {
       {projects.map((project, index) => (
         <div
           key={index}
-          className="w-full sm:w-[40vw] md:w-full lg:w-[30vw] xl:w-[28vw] h-auto bg-white text-black rounded-lg font-oswald shadow-md overflow-hidden rounded-[.4vw]"
+          className="w-full sm:w-[40vw] md:w-full lg:w-[30vw] xl:w-[28vw] h-auto bg-white text-black font-oswald shadow-md overflow-hidden rounded-[.4vw]"
         >
           {/* {project.video && ( */}
           <video
