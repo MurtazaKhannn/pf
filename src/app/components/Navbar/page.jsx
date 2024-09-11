@@ -39,7 +39,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="w-full fixsed top-0 left-0 z-50 bg-black text-white shadow-md bg-background text-foreground">
+    <nav className="w-full fixsed bg-white dark:bg-black top-0 left-0 z-50 bg-black text-white shadow-md bg-background text-foreground">
       <div className="flex justify-between items-center h-[10vh] xs:h-[8vh] px-4 xs:px-2 w-full">
         {/* Logo Section */}
         <h1 className="text-4xl xs:text-2xl font-bold flex items-center">
@@ -51,12 +51,12 @@ const Nav = () => {
         </h1>
 
         {/* Desktop Links */}
-        <div className="hidden sm:flex space-x-6 text-white font-protest">
+        <div className="hidden text-black dark:text-white sm:flex space-x-6 text-white font-protest">
           <Link
             to="home"
             smooth={true}
             duration={2000}
-            className="hover:text-pink-700 py-2 cursor-pointer"
+            className="hover:tdext-pink-700 py-2 text-black dark:text-white cursor-pointer"
           >
             Home
           </Link>
@@ -64,7 +64,7 @@ const Nav = () => {
             to="GameSection"
             smooth={true}
             duration={2000}
-            className="hover:text-pink-700 py-2 cursor-pointer"
+            className="hover:text-pinkd-700 text-black dark:text-white py-2 cursor-pointer"
           >
             GameSection
           </Link>
@@ -72,7 +72,7 @@ const Nav = () => {
             to="projects"
             smooth={true}
             duration={2000}
-            className="hover:text-pink-700 py-2 cursor-pointer"
+            className="hovedr:text-pink-700 text-black dark:text-white py-2 cursor-pointer"
           >
             Projects
           </Link>
@@ -80,7 +80,7 @@ const Nav = () => {
             to="experience"
             smooth={true}
             duration={2500}
-            className="hover:text-pink-700 py-2 cursor-pointer"
+            className="hover:texct-pink-700 text-black dark:text-white py-2 cursor-pointer"
           >
             Experience
           </Link>
@@ -88,13 +88,10 @@ const Nav = () => {
 
         {/* Contact Button for Desktop */}
         <div className="hidden sm:flex items-center">
-          <div onClick={toggleTheme} className="cursor-pointer">
-          <MdLightbulbOutline size={20} />
-          </div>
           <div>
             <Toaster closeButton  expand={false} />
             <button
-              className="px-4"
+              className="px-4 text-black dark:text-white"
               onClick={() =>
                 toast.info(
                   <div className="flex flex-col font-strike text-sm">

@@ -7,21 +7,29 @@ import { IoLink } from "react-icons/io5";
 
 const Page = () => {
   return (
-    <div className="w-full h-full flex flex-wrap justify-center items-center p-4 sm:p-6 md:p-8 lg:p-10 gap-6 sm:gap-8 md:gap-10 lg:gap-12 rounded-md">
+    <div className="w-full h-full flex flex-col flex-wrap justify-center items-center sm:p-6 md:p-8 lg:p-10 gap-6 sm:gap-8 md:gap-10 lg:gap-12 rounded-[.4vw]">
+      <div className="w-full max-w-6xl mx-auto p-4 lg:p-10">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-strike flex justify-start">
+          Projects
+        </h2>
+      </div>
+
       {projects.map((project, index) => (
         <div
           key={index}
-          className="w-full sm:w-[40vw] md:w-full lg:w-[30vw] xl:w-[28vw] h-auto bg-white text-black rounded-lg font-oswald shadow-md overflow-hidden"
+          className="w-full sm:w-[40vw] md:w-full lg:w-[30vw] xl:w-[28vw] h-auto bg-white text-black rounded-lg font-oswald shadow-md overflow-hidden rounded-[.4vw]"
         >
           {/* {project.video && ( */}
-            <video
-              className="w-full h-[40vh] sm:h-[35vh] md:h-[35vh] lg:h-[30vh] object-cover"
-              src={project.video}
-              controls
-            ></video>
+          <video
+            className="w-full h-[40vh] sm:h-[35vh] md:h-[35vh] lg:h-[30vh] object-cover rounded-[.4vw]"
+            src={project.video}
+            controls
+          ></video>
           {/* )} */}
           <div className="p-4">
-            <h1 className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold">{project.name}</h1>
+            <h1 className="text-xl sm:text-2xl md:text-2xl lg:text-3xl font-bold">
+              {project.name}
+            </h1>
             <p className="text-xs sm:text-sm md:text-sm lg:text-base text-zinc-600 flex flex-wrap gap-2 mt-2">
               {project.tags.map((item, id) => (
                 <span key={id}>
@@ -31,7 +39,9 @@ const Page = () => {
                 </span>
               ))}
             </p>
-            <p className="mt-2 text-xs sm:text-sm md:text-sm lg:text-base">{project.description}</p>
+            <p className="mt-2 text-xs sm:text-sm md:text-sm lg:text-base">
+              {project.description}
+            </p>
             <div className="flex flex-wrap gap-2 mt-4">
               {project.stack.map((item, idx) => (
                 <p
@@ -43,10 +53,20 @@ const Page = () => {
               ))}
             </div>
             <div className="flex gap-2 py-2 mt-4 flex-wrap">
-              <p className="flex gap-2 text-xs sm:text-xs md:text-sm lg:text-sm bg-black text-white rounded-full px-3 py-1 cursor-pointer">
+              <p
+                className="flex gap-2 text-xs sm:text-xs md:text-sm lg:text-sm bg-black text-white rounded-full px-3 py-1 cursor-pointer items-center"
+                onClick={() => {
+                  window.open(`${project.github}`);
+                }}
+              >
                 <FaGithub size={16} /> <span>Source</span>
               </p>
-              <p className="flex gap-2 text-xs sm:text-xs md:text-sm lg:text-sm bg-black text-white rounded-full px-3 py-1 cursor-pointer">
+              <p
+                className="flex gap-2 text-xs sm:text-xs md:text-sm lg:text-sm bg-black text-white rounded-full px-3 py-1 cursor-pointer items-center"
+                onClick={() => {
+                  window.open(`${project.link}`);
+                }}
+              >
                 <IoLink size={16} /> <span>Website</span>
               </p>
             </div>

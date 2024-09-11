@@ -7,6 +7,8 @@ import TechStack from './components/TechStack/page'
 import Intro from "./components/Intro/page"
 import Socials from './components/Socials/page'
 import Projects from './components/Projects/page'
+import About from './components/About/page'
+import Footer from "./components/Footer/page"
 
 const HomePage = () => {
   const ref = useRef(null)
@@ -17,7 +19,9 @@ const HomePage = () => {
       <TechStack />
       <Intro/>
       <Socials/>
+      <About/>
       <Projects/>
+      <Footer/>
       
     </div>
   )

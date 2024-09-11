@@ -24,9 +24,9 @@ const Eyes = () => {
   return (
     <div className="upper h-full w-full flex items-center justify-center p-4">
       <div className="w-full flex flex-col items-center justify-center gap-5">  
-        <div className="eyes bg-black p-10 rounded-md z-10 flex flex-col items-center justify-center w-full max-w-screen-lg">
+        <div className="eyes p-10 rounded-md z-10 flex flex-col items-center justify-center w-full max-w-screen-lg">
           <div className="flex items-center justify-center gap-6 w-full h-full">
-            <div className="flex items-center justify-center w-[30vw] sm:w-[25vw] md:w-[20vw] lg:w-[15vw] aspect-[1/1] bg-white rounded-full">
+            <div className="flex items-center justify-center w-[30vw] sm:w-[25vw] md:w-[20vw] lg:w-[15vw] aspect-[1/1] bg-zinc-200 rounded-full">
               <div
                 style={{ transform: `rotate(${rotate}deg)` }}
                 className="flex items-center w-[13vw] h-[13vw] bg-black rounded-full"
@@ -36,7 +36,7 @@ const Eyes = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center w-[30vw] sm:w-[25vw] md:w-[20vw] lg:w-[15vw] aspect-[1/1] bg-white rounded-full">
+            <div className="flex items-center justify-center w-[30vw] sm:w-[25vw] md:w-[20vw] lg:w-[15vw] aspect-[1/1] bg-zinc-200 rounded-full">
               <div
                 style={{ transform: `rotate(${rotate}deg)` }}
                 className="flex items-center w-[13vw] h-[13vw] bg-black rounded-full"
