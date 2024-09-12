@@ -21,6 +21,7 @@ const Page = () => {
             className="w-full sm:w-[40vw] md:w-[30vw] lg:w-[28vw] xl:w-[24vw] h-auto bg-white text-black font-oswald shadow-md overflow-hidden rounded-lg"
           >
             <video
+            autoPlay muted loop
               className="w-full h-[40vh] sm:h-[35vh] md:h-[30vh] lg:h-[25vh] object-cover rounded-t-lg"
               src={project.video}
               controls
