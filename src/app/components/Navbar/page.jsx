@@ -50,8 +50,14 @@ const Nav = () => {
           </i>
         </h1>
 
+        <div className="hidden mr-40 text-black dark:text-white sm:flex space-x-6 font-protest">
+        Visit and explore my innovative projects!
+        </div>
+
+
+
         {/* Desktop Links */}
-        <div className="hidden text-black dark:text-white sm:flex space-x-6 text-white font-protest">
+        {/* <div className="hidden text-black dark:text-white sm:flex space-x-6 text-white font-protest">
           <Link
             to="home"
             smooth={true}
@@ -84,7 +90,9 @@ const Nav = () => {
           >
             Experience
           </Link>
-        </div>
+        </div> */}
+
+        
 
         {/* Contact Button for Desktop */}
         <div className="hidden sm:flex items-center">
@@ -107,15 +115,15 @@ const Nav = () => {
         </div>
 
         {/* Mobile Menu Icon */}
-        <div className="sm:hidden flex items-center">
+        {/* <div className="sm:hidden flex items-center">
           <button className="text-black dark:text-white" onClick={toggleMenu}>
             {isOpen ? <FaTimes size={25} /> : <FaBars size={25} />}
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="sm:hidden flex flex-col items-center bg-black w-full space-y-4 py-4">
           <Link
             to="home"
@@ -163,7 +171,7 @@ const Nav = () => {
             Contact Me <FaPhone size={15} />
           </Link>
         </div>
-      )}
+      )} */}
     </nav>
   );
 };
