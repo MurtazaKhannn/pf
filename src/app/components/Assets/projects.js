@@ -3,9 +3,9 @@ let projects = [
   {
     name: "Indian Oil",
     video: "/videos/ioclf.mp4", // URL path relative to the public folder
-    description: "Developed a comprehensive Tender Document Management System for Indian Oil, utilizing the MERN stack (MongoDB, Express.js, React, Node.js). This web application is designed to streamline the management and processing of tender documents, enhancing efficiency and organization in handling large volumes of critical documents.",
+    description: "Developed a comprehensive Tender Document Management System for Indian Oil, utilizing the MERN stack (MongoDB, Express.js, React, Node.js). This web application is designed to streamline the management and processing of tender documents, enhancing efficiency and organization in handling large volumes of critical documents. (NDA therefore cant show the website)",
     images: ["image1.jpg", "image2.jpg"],
-    link: "https://iocl-project-frontend.vercel.app/",
+    link: "https://github.com/MurtazaKhannn/IOCL-ProjectFrontend",
     github: "https://github.com/MurtazaKhannn/IOCL-ProjectFrontend",
     tags: ["Management system", "Efficient"],
     stack: ["Mongo", "Express", "React", "Node"]
