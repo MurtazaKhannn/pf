@@ -41,12 +41,12 @@ let projects = [
     stack: ["Mongo", "Nextjs", "GSAP", "Framer Motion"]
   },
   {
-    name: "Talk (In Progress)",
+    name: "Talk",
     video: "/videos/talk.mp4", // URL path relative to the public folder
     description: "Introducing Talk – a social media app currently in the works, built on the MERN stack. With a user-friendly interface, Talk allows you to do everything you'd expect from a social media platform: tweet, post, share, and connect with others. Designed to be visually pleasing and intuitive, Talk is your space to express yourself and engage with a vibrant community. Stay tuned for more features as I continue to develop this exciting project!",
     images: ["image1.jpg", "image2.jpg"],
-    link: "https://github.com/MurtazaKhannn/talkFrontend",
-    github: "https://github.com/MurtazaKhannn/talkFrontend",
+    link: "https://talk-17wq.onrender.com/",
+    github: "https://github.com/MurtazaKhannn/talk",
     tags: ["social media", "Interactive"],
     stack: ["Mongo", "Express", "GSAP", "React"]
   },
@@ -55,7 +55,7 @@ let projects = [
     video: "/videos/chess.mp4", // URL path relative to the public folder
     description: "Introducing My Chess App – currently in progress, this app allows you to play chess and make every move smoothly. Built using Socket.IO, EJS, Express, and Chess.js, it provides a seamless gaming experience. I'm working hard to add more features soon, making it an even more engaging platform for chess enthusiasts. Stay tuned for updates!",
     images: ["image1.jpg", "image2.jpg"],
-    link: "https://github.com/MurtazaKhannn/chess",
+    link: "https://chess-9okp.onrender.com/",
     github: "https://github.com/MurtazaKhannn/chess",
     tags: ["Chess", "Smooth"],
     stack: ["socket.io", "ejs", "express", "chessjs"]
