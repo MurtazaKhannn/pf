@@ -55,7 +55,7 @@ let projects = [
     video: "/videos/chess.mp4", // URL path relative to the public folder
     description: "Introducing My Chess App – currently in progress, this app allows you to play chess and make every move smoothly. Built using Socket.IO, EJS, Express, and Chess.js, it provides a seamless gaming experience. I'm working hard to add more features soon, making it an even more engaging platform for chess enthusiasts. Stay tuned for updates!",
     images: ["image1.jpg", "image2.jpg"],
-    link: "https://chess-9okp.onrender.com/",
+    link: "https://chess-5k1z.onrender.com/",
     github: "https://github.com/MurtazaKhannn/chess",
     tags: ["Chess", "Smooth"],
     stack: ["socket.io", "ejs", "express", "chessjs"]
