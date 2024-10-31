@@ -35,7 +35,7 @@ let projects = [
     video: "/videos/poet.mp4", // URL path relative to the public folder
     description: "Welcome to My Poetry Haven – a creative project currently in development, built with Next.js, MongoDB, GSAP, and Framer Motion. This platform aims to bring poetry to life through captivating animations and dynamic visuals. While I'm still fine-tuning features and enhancing the user experience, I invite you to explore the journey as I craft a unique space for poetry enthusiasts. Stay tuned for updates and new poetic creations!",
     images: ["image1.jpg", "image2.jpg"],
-    link: "pooets.vercel.app",
+    link: "https://pooets.vercel.app",
     github: "https://github.com/MurtazaKhannn/pOETs",
     tags: ["Poetry exp", "Beautiful"],
     stack: ["Mongo", "Nextjs", "GSAP", "Framer Motion"]
