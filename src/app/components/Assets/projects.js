@@ -1,6 +1,16 @@
 let projects = [
 
   {
+    name: "Lumina UI",
+    video: "/videos/luminaui.mp4", // URL path relative to the public folder
+    description: "Lumina UI is a frontend library built with Next.js, Framer Motion, GSAP, and TailwindCSS. It offers a collection of pre-built, animated components that can be easily copied and pasted into any project. Designed for smooth performance and responsiveness, Lumina UI simplifies frontend development with seamless animations and modern UI elements. It’s perfect for developers looking to enhance their projects with minimal effort.",
+    images: ["image1.jpg", "image2.jpg"],
+    link: "luminaui.in",
+    github: "https://github.com/Rohitk131/LuminaUI",
+    tags: ["UI Library", "Easy to use"],
+    stack: ["Next", "TypeScript", "Framer Motion", "GSAP"]
+  },
+  {
     name: "Indian Oil",
     video: "/videos/ioclf.mp4", // URL path relative to the public folder
     description: "Developed a comprehensive Tender Document Management System for Indian Oil, utilizing the MERN stack (MongoDB, Express.js, React, Node.js). This web application is designed to streamline the management and processing of tender documents, enhancing efficiency and organization in handling large volumes of critical documents. (NDA therefore cant show the website)",
@@ -11,14 +21,14 @@ let projects = [
     stack: ["Mongo", "Express", "React", "Node"]
   },
   {
-    name: "hentAI (In Progress)",
-    video: "/videos/hentAI.mp4", // URL path relative to the public folder
-    description: "Introducing hentAi – a chatbot I've developed using Next.js, PostgreSQL, Prisma, and GeminiAPI. It currently features real-time AI conversations and document processing capabilities. More features will be added soon as I continue to enhance its functionality! Stay tuned for more updates as hentAi evolves into an even more powerful tool. ",
+    name: "If Share",
+    video: "/videos/if-share.mp4", // URL path relative to the public folder
+    description: "IfShare is an online platform for quickly sharing notes, code snippets, and files via short URLs or QR codes. It also features a real-time whiteboard for brainstorming and collaboration. Built with Next.js, MongoDB, and Supabase, it ensures fast and secure sharing. Whether you're a student, developer, or team, IfShare makes collaboration seamless and efficient! ",
     images: ["image1.jpg", "image2.jpg"],
-    link: "https://github.com/MurtazaKhannn/hai",
-    github: "https://github.com/MurtazaKhannn/hai",
-    tags: ["ChatBot", "Efficient and Interactive"],
-    stack: ["Postgres", "Nextjs", "prisma", "neonDb"]
+    link: "if-share.vercel.app",
+    github: "https://github.com/MurtazaKhannn/ifshare",
+    tags: ["Share Anything", "Efficient and Interactive"],
+    stack: ["Nextjs", "Supabase", "mongoDb"]
   },
   {
     name: "Silva Nest",
