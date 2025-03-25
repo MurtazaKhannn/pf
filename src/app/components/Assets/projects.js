@@ -10,6 +10,7 @@ let projects = [
     tags: ["UI Library", "Easy to use"],
     stack: ["Next", "TypeScript", "Framer Motion", "GSAP"]
   },
+  
   {
     name: "Indian Oil",
     video: "/videos/ioclf.mp4", // URL path relative to the public folder
