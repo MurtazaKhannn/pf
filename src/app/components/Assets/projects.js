@@ -10,6 +10,17 @@ let projects = [
     tags: ["UI Library", "Easy to use"],
     stack: ["Next", "TypeScript", "Framer Motion", "GSAP"]
   },
+
+  {
+    name: "Potify ",
+    video: "/videos/potify.mp4", // URL path relative to the public folder
+    description: "Potify isn't just another music streaming app — it’s a vibe. Designed with attitude, this playful Spotify-inspired web app lets users:🎶 Explore a curated music collectio😂 Enjoy witty roasts (even ChatGPT gets roasted!📱 Experience a responsive UI across all devices🎨 Navigate a slick, minimalistic interface . Built with MERN Stack, Potify shows off both frontend finesse , backend innovation and a sense of humor. Whether you're in it for the beats or the burns, Potify delivers.",
+    images: ["image1.jpg", "image2.jpg"],
+    link: "https://potify-clvs.onrender.com",
+    github: "https://github.com/MurtazaKhannn/Potify",
+    tags: ["Musoc Streaming", "Roasts You"],
+    stack: ["React", "Express", "MongoDB", "Nodejs" , "Tailwind"]
+  },
   
   {
     name: "Indian Oil",
